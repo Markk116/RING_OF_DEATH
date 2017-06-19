@@ -1,0 +1,396 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_rect"
+			],
+			[
+				"plaer",
+				"Player"
+			],
+			[
+				"hell",
+				"Hellspawn"
+			],
+			[
+				"demon",
+				"demon_spawn"
+			],
+			[
+				"enemy",
+				"Enemy"
+			],
+			[
+				"spa",
+				"demon_spawn"
+			],
+			[
+				"dem",
+				"demon_spawn"
+			],
+			[
+				"pro",
+				"projectiles"
+			],
+			[
+				"pla",
+				"Player"
+			],
+			[
+				"In",
+				"input_data"
+			],
+			[
+				"in",
+				"input_data"
+			],
+			[
+				"page",
+				"page1"
+			],
+			[
+				"PDF",
+				"PdfFileReader"
+			],
+			[
+				"add",
+				"add_stringers"
+			],
+			[
+				"rel",
+				"Rel_pos"
+			],
+			[
+				"tot",
+				"total_area"
+			],
+			[
+				"Stringer",
+				"Stringer_wide_tm"
+			],
+			[
+				"Stringer_long",
+				"Stringer_long_tm"
+			],
+			[
+				"all",
+				"all_elements"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Ring of death.py",
+			"settings":
+			{
+				"buffer_size": 6038,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "funct.py",
+			"settings":
+			{
+				"buffer_size": 1435,
+				"line_ending": "Windows",
+				"name": "import pygame"
+			}
+		}
+	],
+	"build_system": "Packages/User/Anaconda2 python 27 .sublime-build",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Documenten/Python 27 scripts/Projects/RING OF DEATH",
+		"/D/Documenten/Python 27 scripts/Projects/RING OF DEATH/Images"
+	],
+	"file_history":
+	[
+		"/D/Documenten/Python 27 scripts/Assignments/Fractal renderer/Mandelsnot.py",
+		"/D/Documenten/Python 27 scripts/Projects/Acrostic sentance squares/Ittertools for permutations!",
+		"/D/Documenten/Python 27 scripts/Projects/PDF Tools/PDF Assembler/Image_100_1l.txt",
+		"/D/Documenten/Python 27 scripts/Projects/PDF Tools/PDF Assembler/Assembler",
+		"/D/Documenten/Python 27 scripts/Projects/PDF Tools/PDF Cutter.py",
+		"/D/Documenten/Python 27 scripts/Projects/PDF Tools/PDF im-Extract/Image Extractor.py",
+		"/D/Boeken/You may bring up a genius Bring up a happy person!/You May bring up a genius, bring up a happy person!.pdf",
+		"/D/Boeken/You may bring up a genius Bring up a happy person!/Image Extractor.py",
+		"/D/Documenten/Python 27 scripts/Projects/PDF cutter/PDF im-Extract/Inspiration.py",
+		"/D/Documenten/Python 27 scripts/Projects/PDF cutter/PDF im-Extract/Output/Image_14.txt",
+		"/D/Documenten/Python 27 scripts/Projects/PDF cutter/PDF im-Extract/Output/Image_16.txt",
+		"/D/Documenten/Python 27 scripts/Projects/PDF cutter/PDF CUTTER/1-50.pdf",
+		"/D/Documenten/Python 27 scripts/Projects/PDF cutter/PDF im-Extract/Image Extractor.py",
+		"/D/Documenten/Python 27 scripts/Projects/PDF cutter/PDF im-Extract/Output/Image_12.txt",
+		"/D/Documenten/Python 27 scripts/Projects/PDF cutter/PDF im-Extract/Output/Image_11.txt",
+		"/D/Documenten/Python 27 scripts/Projects/PDF cutter/PDF im-Extract/Output/Image_1.jpg",
+		"/D/Documenten/Python 27 scripts/Projects/PDF cutter/PDF im-Extract/Test.pdf",
+		"/D/Documenten/Python 27 scripts/Projects/PDF cutter/PDF im-Extract/Output/Image_1.txt",
+		"/C/Users/Markk116/Anaconda2/Lib/site-packages/PyPDF2/filters.py",
+		"/C/Users/Markk116/Anaconda2/lib/site-packages/PyPDF2/filters.py",
+		"/C/Users/Markk116/Anaconda2/lib/site-packages/PyPDF2/generic.py",
+		"/D/Documenten/Python 27 scripts/Projects/PDF cutter/1-50.pdf",
+		"/D/Downloads/Moment of intertia.py",
+		"/D/Downloads/Spelunky sourcecode/spelunky.gmk",
+		"/D/Documents/Python Projects/Spelunky Bot/quickGrab.py",
+		"/C/Users/Mark Kalsbeek/AppData/Roaming/Sublime Text 3/Packages/User/Python27.sublime-build",
+		"/D/Documents/Python Projects/Dungeon trial.py",
+		"/C/Program Files/Sublime Text 3 (3059)/Packages/Python.sublime-package",
+		"/D/Downloads/download",
+		"//Mark-bto-08/d/Documenten/Python Projects/A Classy Trial.py",
+		"//Mark-bto-08/d/Documenten/Python Projects/BATTLESHIPS.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"laser",
+			"300",
+			"print",
+			"col",
+			"BAR",
+			"/Subtype /Image",
+			"150 0/Resources",
+			"150 0 R",
+			"/Resources",
+			"60 0 R",
+			"/Resources"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Ring of death.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2514,
+								2514
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1434.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"file": "Images/Spinner.png",
+					"semi_transient": true,
+					"stack_index": 1,
+					"type": "image"
+				},
+				{
+					"buffer": 1,
+					"file": "funct.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import pygame",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 253.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "RING OF DEATH.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Documenten\\Python 27 scripts\\Assignments\\Fractal renderer\\Fractal renderer.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
