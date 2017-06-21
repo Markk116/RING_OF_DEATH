@@ -12,6 +12,7 @@ LRED = (100, 0, 0)
 DRED = (200, 0, 0)
 BLACK = (0, 0, 0)
 
+
 class Background(pg.sprite.Sprite):
     def __init__(self, image_file, location):
         pg.sprite.Sprite.__init__(self)
@@ -159,19 +160,19 @@ class GameMenu():
                 if self.mouse_is_visible:
                     self.set_mouse_selection(item, mpos)
                 self.screen.blit(item.label, item.position)
+                
+            #movingships
+
+
 
             pg.display.flip()
 
 
-if __name__ == "__main__":
-    # Creating the screen
-    screen = pg.display.set_mode((760, 406), 0, 32)
-
-    points = ("Start", "Quit")
-    #Ringofdeath.main()
-    funcs = {"Hold my Beer aka Start": rd.main,
-             "Gimme my beer back! aka quit": sys.exit}
-
-    pg.display.set_caption("Best Game Menu 4 eva! <3")
-    menu = GameMenu(screen, funcs.keys(), funcs)
-    menu.run()
+screen = pg.display.set_mode((760, 406), 0, 32)
+points = ("Start", "Quit")
+#Ringofdeath.main()
+funcs = {"Hold my Beer aka Start": rd.main,
+         "Gimme my beer back! aka quit": sys.exit}
+pg.display.set_caption("Best Game Menu 4 eva! <3")
+menu = GameMenu(screen, funcs.keys(), funcs)
+menu.run()
