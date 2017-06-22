@@ -19,16 +19,24 @@ RED     = ( 255	,     0	,   0)
 class Backround(object):
 	"""A Class to handle the (scolling) backround"""
  	def __init__(self, img, x, screen):
- 		self.img = img
- 		self.x = x
- 		self.screen = screen
- 	def move_render(self):
- 		self.x-=10
- 		if self.x<=-1280:
- 			self.x = +1280
+ 		self.img 		= img
+ 		self.x 			= x
+ 		self.x_anchor 	= x
+ 		self.screen 	= screen
+ 		self.rect 	= self.img.get_rect()
+ 	def move_render(self, vx=10, x_bound=1280):
+ 		self.x-=vx
+ 		if self.x<=-x_bound:
+ 			self.x = x_bound
  		self.screen.blit(self.img, (self.x, 0))
  	def still_render(self):
  		self.screen.blit(self.img, (self.x, 0))
+ 	def crop_render(self, x_min , x_max, vx = 10):
+ 		self.x +=vx
+ 		if self.x <=x_min: self.x += x_max-x_min
+ 		elif self.x >=x_max: self.x -= x_max-x_min
+ 		self.crop_img = self.img.subsurface(self.x - x_min ,0,x_max-x_min,self.rect[3])
+ 		self.screen.blit(self.crop_img, (self.x_anchor, 0))
 
 class Ship(object):
 	"""To handle the player ship"""

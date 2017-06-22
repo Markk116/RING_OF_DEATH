@@ -37,6 +37,9 @@ def main():
 	bg2 = Backround(images["Space"], -1280,screen)
 	bg3 = Backround(images["Backround"], 0,screen)
 
+	bg4 = Backround(images["Pillar_bg"], 450,screen)
+	bg5 = Backround(images["Pillar_sc"], 450,screen)
+
 	Player = Ship(pg.transform.scale(images["Ship"], (142, 64)), 200, 100, screen)
 	difficulty = 250
 	Hellspawn = []
@@ -89,8 +92,12 @@ def main():
 	    	if Player.coll(scum): cont = False
 
 	    # --- Drawing Code ---
-	    bg1.move_render()
+	    bg1.move_render() #These are the moving stars
 	    bg2.move_render()
+
+	    bg4.still_render()#central pillar
+	    bg5.crop_render(450,770, vx = 1)#scrollpillar
+
 	    bg3.still_render()
 	    Player.render()
 
