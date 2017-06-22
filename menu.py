@@ -1,12 +1,11 @@
 # -*- coding: latin-1 -*-
-
 import sys
 import pygame as pg
-import Ringofdeath as rd
+import Game as rd
 pg.init()
 
 PURPLE = (150, 0, 75)
-FAB = (55, 255, 255)
+FAB = (75, 255, 255)
 WHITE = (255, 255, 255)
 LRED = (100, 0, 0)
 DRED = (200, 0, 0)
@@ -17,6 +16,7 @@ class Background(pg.sprite.Sprite):
     def __init__(self, image_file, location):
         pg.sprite.Sprite.__init__(self)
         self.image = pg.image.load(image_file)
+        self.image = pg.transform.scale(self.image, (1280, 720))
         self.rect = self.image.get_rect()
         self.rect.left, self.rect.top = location
 
@@ -55,7 +55,7 @@ class MenuPoint(pg.font.Font):
 class GameMenu():
     def __init__(self, screen, items, funcs, background_color=PURPLE, font=None, schrift_size=60,
                  schrift_color=LRED):
-        self.BackGround = Background('ringoffire.jpg', [0, 0])
+        self.BackGround = Background('./Images/ringoffire.jpg', [0, 0])
         #self.bg_color = background_color
         self.clock = pg.time.Clock()
         self.screen = screen
@@ -168,7 +168,7 @@ class GameMenu():
             pg.display.flip()
 
 
-screen = pg.display.set_mode((760, 406), 0, 32)
+screen = pg.display.set_mode((1280,720), 0, 32)
 points = ("Start", "Quit")
 #Ringofdeath.main()
 funcs = {"Hold my Beer aka Start": rd.main,

@@ -40,3 +40,4 @@ def fill_gradient(surface, color, gradient, rect=None, vertical=True, forward=Tr
                 min(max(a[2]+(rate[2]*(col-x1)),0),255)
             )
             fn_line(surface, color, (col,y1), (col,y2))
+
