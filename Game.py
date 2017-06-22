@@ -31,15 +31,13 @@ def main():
 			images[img.replace(".png", "")] = image
 
 
-	
-
-	bg1 = Backround(images["Space"], 0,screen)
+	bg1 = Backround(images["Space"], 0, screen)
 	bg2 = Backround(images["Space"], -1280,screen)
 	bg3 = Backround(images["Backround"], 0,screen)
 
 	bg4 = Backround(images["Pillar_bg"], 450,screen)
 	bg5 = Backround(images["Pillar_sc"], 450,screen)
-	bg6  = Backround(images["Astro"], 0 , screen)
+	bg6 = Backround(images["Astro"], 0 , screen)
 
 	Player = Ship(pg.transform.scale(images["Ship"], (142, 64)), 200, 100, screen)
 	difficulty = 250
@@ -116,3 +114,4 @@ def main():
 
 	pg.quit() #RIP </3
 
+main()
